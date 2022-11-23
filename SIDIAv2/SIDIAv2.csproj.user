@@ -10,5 +10,14 @@
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Theme\Fonts.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Theme\MenuButtonTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Theme\TextboxTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
   </ItemGroup>
 </Project>

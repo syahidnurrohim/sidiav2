@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "qpVc5J6PSRpCR2R95OcPEhOxLQKfWsL/2lzTifjq+X6LhHb67rMSwyveH1OK8KaEJv/8SpHTrKVBrkKnSArD/Q==",
+  "dgSpecHash": "b44lE7lkqvcLF+z2Dci4HAyFjoEmOAy8lpz5swHYBzQuFfEEW0Aq40w7ewsgIPxWIAKfZVlIeUrylXBK6xFOXQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\syahi\\OneDrive\\Documents\\Kuliah\\Pemrograman Lanjut\\SIDIAv2\\SIDIAv2\\SIDIAv2.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\syahi\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\syahi\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
+    "C:\\Users\\syahi\\.nuget\\packages\\wpf-ui\\2.0.3\\wpf-ui.2.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

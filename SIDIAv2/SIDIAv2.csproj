@@ -8,11 +8,27 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="assets\fonts\SegoeFluent\SegoeFluent.ttf" />
     <None Remove="assets\img\bg.jpg" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="assets\fonts\SegoeFluent\SegoeFluent.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Resource Include="assets\img\bg.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="MVVM\Models\" />
+    <Folder Include="MVVM\" />
+    <Folder Include="MVVM\View Models\" />
+    <Folder Include="MVVM\Views\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="WPF-UI" Version="2.0.3" />
   </ItemGroup>
 
 </Project>

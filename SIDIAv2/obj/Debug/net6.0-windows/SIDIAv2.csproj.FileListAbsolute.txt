@@ -2,7 +2,9 @@ C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\
 C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\Theme\Fonts.baml
 C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\Theme\MenuButtonTheme.baml
 C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\Theme\TextboxTheme.baml
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\Dashboard.g.cs
 C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\Product.g.cs
 C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\App.g.cs
 C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\SIDIAv2_MarkupCompile.cache
 C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\SIDIAv2_MarkupCompile.lref
@@ -13,7 +15,9 @@ C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\bin\
 C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\bin\Debug\net6.0-windows\SIDIAv2.pdb
 C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\bin\Debug\net6.0-windows\Wpf.Ui.dll
 C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\App.baml
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\Dashboard.baml
 C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\Product.baml
 C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\SIDIAv2.g.resources
 C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\SIDIAv2.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\SIDIAv2.AssemblyInfoInputs.cache

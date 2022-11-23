@@ -8,41 +8,65 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="760" Width="1280" 
         ResizeMode="NoResize"
+        Background="Transparent"
         WindowStyle="None"
         xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml">
-    <Grid Margin="8">
+    <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="auto" />
-            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        <ui:TitleBar Title="SIDIAv2" FontSize="20"/>
-        <Grid Grid.Row="1">
+        <ui:TitleBar Title="SIDIAv2" 
+                     FontSize="20" 
+                     Background="#653780"
+                     BorderThickness="20"/>
+        <Grid Grid.Row="1"
+              Name="Sidebar"
+              Background="#653780">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto" />
-                <ColumnDefinition Width="*" />
+                <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <ui:NavigationStore
-            Grid.Column="0"
-            Frame="{Binding ElementName=MainFrame}"
-            SelectedPageIndex="0">
+            <ui:NavigationStore Grid.Column="0"
+                Frame="{Binding ElementName=MainFrame}"
+                SelectedPageIndex="0">
                 <ui:NavigationStore.Items>
                     <ui:NavigationItem
-                    Content="Home"
-                    Icon="Home24"
-                    PageTag="home" />
-                    <ui:NavigationItem Content="Apps" Icon="AppFolder24" />
-                    <ui:NavigationItem Content="Mail" Icon="Mail24" />
+                        Name="Home"
+                        Content="Home"
+                        Click="SidebarNavigate_Click"
+                        Icon="Home24"
+                        PageTag="home" />
+                    <ui:NavigationItem 
+                        Name="Product"
+                        Content="Product" 
+                        Click="SidebarNavigate_Click"
+                        Icon="AppFolder24" />
+                    <ui:NavigationItem 
+                        Name="Stock"
+                        Content="In Stock" 
+                        Click="SidebarNavigate_Click"
+                        Icon="Cart24" />
+                    <ui:NavigationItem 
+                        Name="supplier"
+                        Content="Supplier" 
+                        Click="SidebarNavigate_Click"
+                        Icon="Mail24" />
+                    <ui:NavigationItem 
+                        Name="record"
+                        Content="Record" 
+                        Click="SidebarNavigate_Click"
+                        Icon="Record24" />
                 </ui:NavigationStore.Items>
                 <ui:NavigationStore.Footer>
-                    <ui:NavigationItem Content="Library" Icon="Library24" />
                     <ui:NavigationItem Content="Settings" Icon="Settings24" />
                 </ui:NavigationStore.Footer>
             </ui:NavigationStore>
-            
-            <Frame
-            x:Name="MainFrame"
-            Grid.Column="1"
-            Margin="8,0,0,0" />
+
+            <Frame x:Name="MainFrame"
+                Grid.Column="1"
+                Padding="16, 20, 16, 20" 
+                Background="#ffff"/>
         </Grid>
     </Grid>
 </ui:UiWindow>

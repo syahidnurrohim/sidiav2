@@ -28,11 +28,31 @@ namespace SIDIAv2
         public MainWindow()
         {
             InitializeComponent();
+            MainFrame.Navigate(new Dashboard());
         }
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-
         }
+
+        private void SidebarNavigate_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationItem navigationItem = (NavigationItem)sender;
+            string name = navigationItem.Name;
+            Page page = new Dashboard();
+
+            switch (name)
+            {
+                case "Home":
+                    page = new Dashboard();
+                    break;
+                case "Product":
+                    page = new Product();
+                    break;
+            }
+
+            MainFrame.Navigate(page);
+        }
+
     }
 }

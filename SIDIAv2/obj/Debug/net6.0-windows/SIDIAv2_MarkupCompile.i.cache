@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\App.xaml
-6-1538995406
+8-957215682
 
-7-587118399
+9-215165851
 1961929962832
-Dashboard.xaml;MainWindow.xaml;Product.xaml;Theme\Fonts.xaml;Theme\MenuButtonTheme.xaml;Theme\TextboxTheme.xaml;
+Dashboard.xaml;KelolaAdmin.xaml;KelolaBarang.xaml;KelolaPegawai.xaml;MainWindow.xaml;Theme\Fonts.xaml;Theme\MenuButtonTheme.xaml;Theme\TextboxTheme.xaml;
 
-True
+False
 

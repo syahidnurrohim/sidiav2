@@ -8,65 +8,139 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="760" Width="1280" 
         ResizeMode="NoResize"
-        Background="Transparent"
         WindowStyle="None"
+        Background="{ui:ThemeResource ApplicationBackgroundBrush}"
+        WindowCornerPreference="Round"
         xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="auto" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        <ui:TitleBar Title="SIDIAv2" 
-                     FontSize="20" 
-                     Background="#653780"
-                     BorderThickness="20"/>
+        
         <Grid Grid.Row="1"
-              Name="Sidebar"
-              Background="#653780">
+              Name="Sidebar">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto" />
-                <ColumnDefinition/>
+                <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <ui:NavigationStore Grid.Column="0"
+            <ui:NavigationFluent 
+                Width="200"
+                Grid.Column="0"
+                Margin="8"
+                x:Name="RootNavigation"
+                Navigated="RootNavigation_OnNavigated"
                 Frame="{Binding ElementName=MainFrame}"
                 SelectedPageIndex="0">
-                <ui:NavigationStore.Items>
+                <ui:NavigationFluent.Items>
                     <ui:NavigationItem
+                        Padding="2"
+                        PageSource="Dashboard.xaml"
                         Name="Home"
                         Content="Home"
-                        Click="SidebarNavigate_Click"
                         Icon="Home24"
                         PageTag="home" />
                     <ui:NavigationItem 
-                        Name="Product"
-                        Content="Product" 
-                        Click="SidebarNavigate_Click"
+                        Padding="2"
+                        Name="Kelola_barang"
+                        Content="Kelola Barang" 
+                        PageSource="KelolaBarang.xaml"
                         Icon="AppFolder24" />
                     <ui:NavigationItem 
-                        Name="Stock"
-                        Content="In Stock" 
-                        Click="SidebarNavigate_Click"
-                        Icon="Cart24" />
+                        Padding="2"
+                        Name="Kelola_admin"
+                        Content="Kelola Admin" 
+                        PageSource="KelolaAdmin.xaml"
+                        Icon="People24" />
                     <ui:NavigationItem 
-                        Name="supplier"
-                        Content="Supplier" 
-                        Click="SidebarNavigate_Click"
-                        Icon="Mail24" />
-                    <ui:NavigationItem 
-                        Name="record"
-                        Content="Record" 
-                        Click="SidebarNavigate_Click"
-                        Icon="Record24" />
-                </ui:NavigationStore.Items>
-                <ui:NavigationStore.Footer>
-                    <ui:NavigationItem Content="Settings" Icon="Settings24" />
-                </ui:NavigationStore.Footer>
-            </ui:NavigationStore>
+                        Padding="2"
+                        Name="Kelola_pegawai"
+                        Content="Kelola Pegawai"
+                        PageSource="KelolaPegawai.xaml"
+                        Icon="Person24" />
+                </ui:NavigationFluent.Items>
+                <ui:NavigationFluent.Footer>
+                    <ui:NavigationItem Content="Settings" Icon="Settings24" Padding="2" />
+                </ui:NavigationFluent.Footer>
+            </ui:NavigationFluent>
 
-            <Frame x:Name="MainFrame"
+            <Border
                 Grid.Column="1"
-                Padding="16, 20, 16, 20" 
-                Background="#ffff"/>
+                Background="{DynamicResource ControlFillColorDefaultBrush}"
+                CornerRadius="8,0,0,0">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Frame x:Name="RootFrame" Grid.Row="1" />
+                    <ui:Breadcrumb
+                        Grid.Row="0"
+                        Margin="18"
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Top"
+                        FontSize="24"
+                        Navigation="{Binding ElementName=RootNavigation}" />
+
+                    <ui:Snackbar
+                        x:Name="RootSnackbar"
+                        Title="Hello World!"
+                        Grid.Row="1"
+                        MaxWidth="600"
+                        Appearance="Secondary"
+                        CloseButtonEnabled="True"
+                        Icon="PuzzlePiece24"
+                        Message="Remember that the Heat Death of Universe is coming someday, no time to explain - let's go!"
+                        Timeout="5000" />
+                </Grid>
+            </Border>
         </Grid>
+
+        <ui:TitleBar
+            Title="Sistem Informasi Persediaan Barang"
+            Grid.Row="0"
+            ForceShutdown="False"
+            Icon="Resources/img/logo.png"
+            MinimizeToTray="False"
+            ShowHelp="False"
+            ShowClose="True"
+            Margin="8, 4, 8, 4"
+            ShowMaximize="True"
+            ShowMinimize="True"
+            UseSnapLayout="True">
+            <ui:TitleBar.Tray>
+                <ui:NotifyIcon
+                    FocusOnLeftClick="True"
+                    Icon="Resources/img/logo_mini.png"
+                    MenuOnRightClick="True"
+                    TooltipText="WPF UI">
+                    <ui:NotifyIcon.Menu>
+                        <ContextMenu>
+                            <ui:MenuItem
+                                Click="TrayMenuItem_OnClick"
+                                Header="Home"
+                                SymbolIcon="Library28"
+                                Tag="home" />
+                            <ui:MenuItem
+                                Click="TrayMenuItem_OnClick"
+                                Header="Save"
+                                SymbolIcon="Save24"
+                                Tag="save" />
+                            <ui:MenuItem
+                                Click="TrayMenuItem_OnClick"
+                                Header="Open"
+                                SymbolIcon="Folder28"
+                                Tag="open" />
+                            <Separator />
+                            <ui:MenuItem
+                                Click="TrayMenuItem_OnClick"
+                                Header="Reload"
+                                SymbolIcon="ArrowClockwise24"
+                                Tag="reload" />
+                        </ContextMenu>
+                    </ui:NotifyIcon.Menu>
+                </ui:NotifyIcon>
+            </ui:TitleBar.Tray>
+        </ui:TitleBar>
     </Grid>
 </ui:UiWindow>

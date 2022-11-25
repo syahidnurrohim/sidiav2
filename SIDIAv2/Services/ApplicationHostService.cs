@@ -6,6 +6,7 @@ using System.Windows;
 using Microsoft.Extensions.Hosting;
 using Wpf.Ui.Mvvm.Contracts;
 
+using SIDIAv2.View;
 namespace SIDIAv2.Services;
 
 public class ApplicationHostService : IHostedService
@@ -45,7 +46,7 @@ public class ApplicationHostService : IHostedService
     {
         await Task.CompletedTask;
 
-        if (!Application.Current.Windows.OfType<MainWindow>().Any())
+        if (!Application.Current.Windows.OfType<LoginView>().Any())
         {
             _navigationWindow = _serviceProvider.GetService(typeof(INavigationWindow)) as INavigationWindow;
             _navigationWindow!.ShowWindow();

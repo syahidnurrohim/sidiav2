@@ -15,7 +15,7 @@
 
     <Border CornerRadius="12">
         <Border.Background>
-            <ImageBrush ImageSource="/Resources/img/bg-login.jpg"
+            <ImageBrush ImageSource="pack://application:,,,/Resources/img/bg-login.jpg"
                         Stretch="None"/>
         </Border.Background>
 
@@ -134,7 +134,7 @@
                             Orientation="Vertical"
                             Margin="0,35,0,0">
 
-                    <Image Source="/Resources/img/logo_mini.png"
+                    <Image Source="pack://application:,,,/Resources/img/logo_mini.png"
                            Width="100" Height="100"/>
 
                     <TextBlock Text="SIDIA"
@@ -175,7 +175,7 @@
                              Padding="20,0,0,0">
 
                         <TextBox.Background>
-                            <ImageBrush ImageSource="/Resources/img/user-icon.png"
+                            <ImageBrush ImageSource="pack://application:,,,/Resources/img/user-icon.png"
                                         Stretch="None"
                                         AlignmentX="Left"/>
                         </TextBox.Background>
@@ -202,7 +202,7 @@
                              Padding="20,0,0,0">
 
                         <PasswordBox.Background>
-                            <ImageBrush ImageSource="/Resources/img/key-icon.png"
+                            <ImageBrush ImageSource="pack://application:,,,/Resources/img/key-icon.png"
                                         Stretch="None"
                                         AlignmentX="Left"/>
                         </PasswordBox.Background>

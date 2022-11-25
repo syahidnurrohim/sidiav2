@@ -64,7 +64,7 @@
                 </ui:NavigationFluent.Items>
                 <ui:NavigationFluent.Footer>
                     <ui:NavigationItem Content="Settings" Icon="Settings24" Padding="2" />
-                    <ui:NavigationItem Content="Logout" Icon="DoorArrowLeft24" Padding="2" />
+                    <ui:NavigationItem Content="Logout" Icon="DoorArrowLeft24" Padding="2" Click="Logout_OnClick" />
                 </ui:NavigationFluent.Footer>
             </ui:NavigationFluent>
 

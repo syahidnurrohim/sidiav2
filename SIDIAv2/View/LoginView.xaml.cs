@@ -12,17 +12,46 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
+using Wpf.Ui.Mvvm.Services;
+using Wpf.Ui.Controls;
+using Wpf.Ui.Controls.Interfaces;
+using Wpf.Ui.Mvvm.Contracts;
+using SIDIAv2.ViewModel;
+using SIDIAv2.Services;
+
 namespace SIDIAv2.View
 {
     /// <summary>
     /// Interaction logic for LoginView.xaml
     /// </summary>
-    public partial class LoginView : Window
+    public partial class LoginView : INavigationWindow
     {
-        public LoginView()
+        private IPageService _pageService;
+        public LoginView(IPageService pageService)
         {
+            _pageService = pageService;
             InitializeComponent();
         }
+
+        public Frame GetFrame()
+            => null;
+
+        public INavigation GetNavigation()
+            => null;
+
+        public bool Navigate(Type pageType)
+            => false;
+
+        public void SetPageService(IPageService pageService)
+        {
+
+        }
+
+        public void ShowWindow()
+            => Show();
+
+        public void CloseWindow()
+            => Close();
 
         private void Window_MouseDown(object sender, MouseButtonEventArgs e)
         {
@@ -41,7 +70,9 @@ namespace SIDIAv2.View
 
         private void btnLogin_Click(object sender, RoutedEventArgs e)
         {
-
+            MainWindow mainWindow = new MainWindow(new MainWindowViewModel(), new NavigationService(), _pageService);
+            mainWindow.Show();
+            this.Close();
         }
     }
 }

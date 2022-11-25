@@ -10,6 +10,7 @@ using Wpf.Ui.Mvvm.Services;
 using SIDIAv2.Services;
 using SIDIAv2.Services.Contracts;
 using SIDIAv2.ViewModel;
+using SIDIAv2.View;
 
 namespace SIDIAv2;
 
@@ -34,6 +35,8 @@ public partial class App
             services.AddSingleton<IPageService, PageService>();
             services.AddSingleton<ITestWindowService, TestWindowService>();
             services.AddSingleton<INavigationService, NavigationService>();
+
+            services.AddScoped<INavigationWindow, LoginView>();
 
             services.AddScoped<INavigationWindow, MainWindow>();
             services.AddScoped<MainWindowViewModel>();

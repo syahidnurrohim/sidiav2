@@ -17,6 +17,7 @@ using Wpf.Ui.Common;
 using Wpf.Ui.Controls.Interfaces;
 using Wpf.Ui.Mvvm.Contracts;
 
+using SIDIAv2.View;
 
 namespace SIDIAv2;
 /// <summary>
@@ -26,6 +27,7 @@ namespace SIDIAv2;
 
 public partial class MainWindow : INavigationWindow
 {
+    private IPageService _pageService;
     public MainWindowViewModel ViewModel
     {
         get;
@@ -35,6 +37,7 @@ public partial class MainWindow : INavigationWindow
     {
         ViewModel = viewModel;
         DataContext = this;
+        _pageService = pageService;
 
         InitializeComponent();
         SetPageService(pageService);
@@ -72,6 +75,12 @@ public partial class MainWindow : INavigationWindow
     {
     }
 
+    private void Logout_OnClick(Object sender, RoutedEventArgs e)
+    {
+        LoginView login = new LoginView(_pageService);
+        login.Show();
+        this.CloseWindow();
+    }
 
     private void RootNavigation_OnNavigated(INavigation sender, RoutedNavigationEventArgs e)
     {

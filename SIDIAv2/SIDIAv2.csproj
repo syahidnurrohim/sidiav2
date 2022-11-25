@@ -10,12 +10,17 @@
   <ItemGroup>
     <None Remove="Resources\fonts\SegoeFluent\SegoeFluent.ttf" />
     <None Remove="Resources\img\bg-login.jpg" />
+    <None Remove="Resources\img\bg.jpg" />
+    <None Remove="Resources\img\key-icon.png" />
     <None Remove="Resources\img\logo.png" />
     <None Remove="Resources\img\logo_mini.png" />
+    <None Remove="Resources\img\user-icon.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="Resources\img\bg-login.jpg" />
+    <Resource Include="Resources\img\bg.jpg" />
+    <Resource Include="Resources\img\key-icon.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -36,6 +41,7 @@
   <ItemGroup>
     <Resource Include="Resources\fonts\SegoeFluent\SegoeFluent.ttf" />
     <Resource Include="Resources\img\logo_mini.png" />
+    <Resource Include="Resources\img\user-icon.png" />
   </ItemGroup>
 
 </Project>

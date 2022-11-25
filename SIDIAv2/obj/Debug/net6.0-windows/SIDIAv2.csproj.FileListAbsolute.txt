@@ -29,3 +29,36 @@ C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\
 C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\SIDIAv2.pdb
 C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\SIDIAv2.genruntimeconfig.cache
 C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\ref\SIDIAv2.dll
+D:\C#\sidiav2\SIDIAv2\bin\Debug\net6.0-windows\SIDIAv2.exe
+D:\C#\sidiav2\SIDIAv2\bin\Debug\net6.0-windows\SIDIAv2.deps.json
+D:\C#\sidiav2\SIDIAv2\bin\Debug\net6.0-windows\SIDIAv2.runtimeconfig.json
+D:\C#\sidiav2\SIDIAv2\bin\Debug\net6.0-windows\SIDIAv2.dll
+D:\C#\sidiav2\SIDIAv2\bin\Debug\net6.0-windows\SIDIAv2.pdb
+D:\C#\sidiav2\SIDIAv2\bin\Debug\net6.0-windows\Wpf.Ui.dll
+D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\SIDIAv2.csproj.AssemblyReference.cache
+D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\Theme\Fonts.baml
+D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\Theme\MenuButtonTheme.baml
+D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\Theme\TextboxTheme.baml
+D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\Dashboard.g.cs
+D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\Product.g.cs
+D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\App.g.cs
+D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\SIDIAv2_MarkupCompile.cache
+D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\SIDIAv2_MarkupCompile.lref
+D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\App.baml
+D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\Dashboard.baml
+D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\MainWindow.baml
+D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\Product.baml
+D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\SIDIAv2.g.resources
+D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\SIDIAv2.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\SIDIAv2.AssemblyInfoInputs.cache
+D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\SIDIAv2.AssemblyInfo.cs
+D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\SIDIAv2.csproj.CoreCompileInputs.cache
+D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\SIDIAv2.csproj.CopyComplete
+D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\SIDIAv2.dll
+D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\refint\SIDIAv2.dll
+D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\SIDIAv2.pdb
+D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\SIDIAv2.genruntimeconfig.cache
+D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\ref\SIDIAv2.dll
+D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\View\LoginView.g.cs
+D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\View\LoginView.baml

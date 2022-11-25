@@ -1,25 +1,28 @@
-<<<<<<< HEAD
-=======
-C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\SIDIAv2.csproj.AssemblyReference.cache
-C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\Theme\Fonts.baml
-C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\Theme\MenuButtonTheme.baml
-C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\Theme\TextboxTheme.baml
-C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\Dashboard.g.cs
-C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\MainWindow.g.cs
-C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\Product.g.cs
-C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\App.g.cs
-C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\SIDIAv2_MarkupCompile.cache
-C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\SIDIAv2_MarkupCompile.lref
 C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\bin\Debug\net6.0-windows\SIDIAv2.exe
 C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\bin\Debug\net6.0-windows\SIDIAv2.deps.json
 C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\bin\Debug\net6.0-windows\SIDIAv2.runtimeconfig.json
 C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\bin\Debug\net6.0-windows\SIDIAv2.dll
 C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\bin\Debug\net6.0-windows\SIDIAv2.pdb
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\bin\Debug\net6.0-windows\CommunityToolkit.Mvvm.dll
 C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\bin\Debug\net6.0-windows\Wpf.Ui.dll
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\SIDIAv2.csproj.AssemblyReference.cache
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\Theme\Fonts.baml
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\Theme\MenuButtonTheme.baml
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\Theme\TextboxTheme.baml
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\Dashboard.g.cs
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\KelolaAdmin.g.cs
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\KelolaBarang.g.cs
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\KelolaPegawai.g.cs
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\SIDIAv2_MarkupCompile.cache
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\SIDIAv2_MarkupCompile.lref
 C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\App.baml
 C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\Dashboard.baml
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\KelolaAdmin.baml
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\KelolaBarang.baml
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\KelolaPegawai.baml
 C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\MainWindow.baml
-C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\Product.baml
 C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\SIDIAv2.g.resources
 C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\SIDIAv2.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\SIDIAv2.AssemblyInfoInputs.cache
@@ -31,37 +34,35 @@ C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\
 C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\SIDIAv2.pdb
 C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\SIDIAv2.genruntimeconfig.cache
 C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\ref\SIDIAv2.dll
-D:\C#\sidiav2\SIDIAv2\bin\Debug\net6.0-windows\SIDIAv2.exe
-D:\C#\sidiav2\SIDIAv2\bin\Debug\net6.0-windows\SIDIAv2.deps.json
-D:\C#\sidiav2\SIDIAv2\bin\Debug\net6.0-windows\SIDIAv2.runtimeconfig.json
-D:\C#\sidiav2\SIDIAv2\bin\Debug\net6.0-windows\SIDIAv2.dll
-D:\C#\sidiav2\SIDIAv2\bin\Debug\net6.0-windows\SIDIAv2.pdb
-D:\C#\sidiav2\SIDIAv2\bin\Debug\net6.0-windows\Wpf.Ui.dll
-D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\SIDIAv2.csproj.AssemblyReference.cache
-D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\Theme\Fonts.baml
-D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\Theme\MenuButtonTheme.baml
-D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\Theme\TextboxTheme.baml
-D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\Dashboard.g.cs
-D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\MainWindow.g.cs
-D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\Product.g.cs
-D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\App.g.cs
-D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\SIDIAv2_MarkupCompile.cache
-D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\SIDIAv2_MarkupCompile.lref
-D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\App.baml
-D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\Dashboard.baml
-D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\MainWindow.baml
-D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\Product.baml
-D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\SIDIAv2.g.resources
-D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\SIDIAv2.GeneratedMSBuildEditorConfig.editorconfig
-D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\SIDIAv2.AssemblyInfoInputs.cache
-D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\SIDIAv2.AssemblyInfo.cs
-D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\SIDIAv2.csproj.CoreCompileInputs.cache
-D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\SIDIAv2.csproj.CopyComplete
-D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\SIDIAv2.dll
-D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\refint\SIDIAv2.dll
-D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\SIDIAv2.pdb
-D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\SIDIAv2.genruntimeconfig.cache
-D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\ref\SIDIAv2.dll
-D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\View\LoginView.g.cs
-D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\View\LoginView.baml
->>>>>>> ae00cf9be496eabb2ae9c6fe8772a0439a5118e1
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.dll
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\bin\Debug\net6.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\bin\Debug\net6.0-windows\Microsoft.Extensions.Hosting.dll
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\bin\Debug\net6.0-windows\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Console.dll
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.EventLog.dll
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.EventSource.dll
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\bin\Debug\net6.0-windows\System.Diagnostics.EventLog.dll
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs

@@ -5,6 +5,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SIDIAv2"
+        xmlns:pages="clr-namespace:SIDIAv2"
         mc:Ignorable="d"
         Title="MainWindow" Height="760" Width="1280" 
         ResizeMode="NoResize"
@@ -30,27 +31,29 @@
                 Margin="8"
                 x:Name="RootNavigation"
                 Navigated="RootNavigation_OnNavigated"
-                Frame="{Binding ElementName=MainFrame}"
-                SelectedPageIndex="0">
+                Precache="False"
+                TransitionDuration="200"
+                TransitionType="FadeInWithSlide"
+                Frame="{Binding ElementName=RootFrame}"
+                SelectedPageIndex="-1">
                 <ui:NavigationFluent.Items>
                     <ui:NavigationItem
                         Padding="2"
-                        PageSource="Dashboard.xaml"
+                        PageType="{x:Type pages:Dashboard}"
                         Name="Home"
                         Content="Home"
-                        Icon="Home24"
-                        PageTag="home" />
+                        Icon="Home24" />
                     <ui:NavigationItem 
                         Padding="2"
                         Name="Kelola_barang"
+                        PageType="{x:Type pages:KelolaBarang}"
                         Content="Kelola Barang" 
-                        PageSource="KelolaBarang.xaml"
                         Icon="AppFolder24" />
                     <ui:NavigationItem 
                         Padding="2"
                         Name="Kelola_admin"
-                        Content="Kelola Admin" 
-                        PageSource="KelolaAdmin.xaml"
+                        Content="Kelola Admin"
+                        PageType="{x:Type pages:KelolaPegawai}"
                         Icon="People24" />
                     <ui:NavigationItem 
                         Padding="2"

@@ -107,7 +107,7 @@
             Title="Sistem Informasi Persediaan Barang"
             Grid.Row="0"
             ForceShutdown="False"
-            Icon="Resources/img/logo.png"
+            Icon="pack://application:,,,/Resources/img/logo.png"
             MinimizeToTray="False"
             ShowHelp="False"
             ShowClose="True"
@@ -118,7 +118,7 @@
             <ui:TitleBar.Tray>
                 <ui:NotifyIcon
                     FocusOnLeftClick="True"
-                    Icon="Resources/img/logo_mini.png"
+                    Icon="pack://application:,,,/Resources/img/logo_mini.png"
                     MenuOnRightClick="True"
                     TooltipText="WPF UI">
                     <ui:NotifyIcon.Menu>

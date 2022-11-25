@@ -19,6 +19,9 @@
     <Compile Update="KelolaPegawai.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\LoginView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="Dashboard.xaml">
@@ -43,6 +46,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Theme\TextboxTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\LoginView.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

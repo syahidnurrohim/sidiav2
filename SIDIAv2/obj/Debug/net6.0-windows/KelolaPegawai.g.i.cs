@@ -60,7 +60,7 @@ namespace SIDIAv2 {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/SIDIAv2;component/kelolapegawai.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/SIDIAv2;V1.0.0.0;component/kelolapegawai.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\KelolaPegawai.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

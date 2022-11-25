@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\SIDIAv2.csproj.AssemblyReference.cache
 C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\Theme\Fonts.baml
 C:\Users\syahi\OneDrive\Documents\Kuliah\Pemrograman Lanjut\SIDIAv2\SIDIAv2\obj\Debug\net6.0-windows\Theme\MenuButtonTheme.baml
@@ -62,3 +64,10 @@ D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\SIDIAv2.genruntimeconfig.cache
 D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\ref\SIDIAv2.dll
 D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\View\LoginView.g.cs
 D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\View\LoginView.baml
+>>>>>>> ae00cf9be496eabb2ae9c6fe8772a0439a5118e1
+D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\KelolaAdmin.g.cs
+D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\KelolaBarang.g.cs
+D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\KelolaPegawai.g.cs
+D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\KelolaAdmin.baml
+D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\KelolaBarang.baml
+D:\C#\sidiav2\SIDIAv2\obj\Debug\net6.0-windows\KelolaPegawai.baml

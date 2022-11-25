@@ -10,7 +10,13 @@
     <Compile Update="Dashboard.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Product.xaml.cs">
+    <Compile Update="KelolaAdmin.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="KelolaBarang.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="KelolaPegawai.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="View\LoginView.xaml.cs">
@@ -21,10 +27,16 @@
     <Page Update="Dashboard.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="MainWindow.xaml">
+    <Page Update="KelolaAdmin.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Product.xaml">
+    <Page Update="KelolaBarang.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="KelolaPegawai.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Theme\Fonts.xaml">

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 D:\C#\sidiav2\SIDIAv2\App.xaml
-71725330011
+9-1987857561
 
-8-1543991345
+10-1172038797
 196-1171165244
-Dashboard.xaml;MainWindow.xaml;Product.xaml;Theme\Fonts.xaml;Theme\MenuButtonTheme.xaml;Theme\TextboxTheme.xaml;View\LoginView.xaml;
+Dashboard.xaml;KelolaAdmin.xaml;KelolaBarang.xaml;KelolaPegawai.xaml;MainWindow.xaml;Theme\Fonts.xaml;Theme\MenuButtonTheme.xaml;Theme\TextboxTheme.xaml;View\LoginView.xaml;
 
 True
 

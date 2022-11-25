@@ -19,33 +19,44 @@
             <RowDefinition Height="*" />
             <RowDefinition Height="50" />
         </Grid.RowDefinitions>
-        <Border CornerRadius="20" Padding="20" HorizontalAlignment="Left" Width="99999" Background="Transparent">
+        <Border CornerRadius="20">
+            <Border.Background>
+
+                <RadialGradientBrush>
+                    <GradientStop Offset="0" Color="#1F000000" />
+                    <GradientStop Offset="1" Color="#4F000000" />
+                </RadialGradientBrush>
+            </Border.Background>
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
                 <StackPanel
-                        Margin="0"
-                        HorizontalAlignment="Left"
-                        VerticalAlignment="Top"
+                        Margin="20"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
                         Background="Transparent">
-                    <TextBlock
-                            FontSize="18"
-                            Foreground="#B7FFFFFF"
-                            Text="Selamat Datang di Dashboard" />
                     <TextBlock
                             FontSize="28"
                             FontWeight="Bold"
+                        HorizontalAlignment="Center"
                             Foreground="#FFFFFF"
                             Text="SIDIA v2" />
                     <TextBlock
                             FontSize="18"
+                            Margin="0, 8, 0, 0"
                             Foreground="#B7FFFFFF"
+                        HorizontalAlignment="Center"
+                        FontWeight="Light"
+                            Text="Selamat Datang di Dashboard" />
+                    <TextBlock
+                            FontSize="18"
+                        HorizontalAlignment="Center"
+                            Foreground="#B7FFFFFF"
+                        FontWeight="Light"
                             Text="Gunakanlah Aplikasi dengan Bijak." />
                 </StackPanel>
             </Grid>
         </Border>
-        <TextBlock Text="Dibuat dengan cinta oleh Tim KAPAK ULO" Grid.Row="1" VerticalAlignment="Center" Margin="16, 0"/>
     </Grid>
 </ui:UiPage>

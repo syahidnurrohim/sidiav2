@@ -19,7 +19,15 @@
         VirtualizationMode="Recycling">
         <TextBlock
             Foreground="{DynamicResource TextFillColorSecondaryBrush}"
-            Text="WPF UI adds a number of new, modern controls that can help you build stunning applications for Windows Presentation Foundation."
+            Text="Tabel Barang."
+            Margin="0, 4"
+            FontSize="16"
+            FontWeight="SemiBold"
+            TextWrapping="WrapWithOverflow" />
+        <TextBlock
+            Foreground="{DynamicResource TextFillColorSecondaryBrush}"
+            Text="Koleksi data barang, create, read, update, delete."
+            Margin="0, 4"
             TextWrapping="WrapWithOverflow" />
 
         <ui:DataGrid

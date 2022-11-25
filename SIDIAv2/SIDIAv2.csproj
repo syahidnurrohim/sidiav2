@@ -8,16 +8,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="View\**" />
-    <EmbeddedResource Remove="View\**" />
-    <None Remove="View\**" />
-    <Page Remove="View\**" />
+    <None Remove="Resources\fonts\SegoeFluent\SegoeFluent.ttf" />
+    <None Remove="Resources\img\bg-login.jpg" />
+    <None Remove="Resources\img\logo.png" />
+    <None Remove="Resources\img\logo_mini.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Remove="Resources\fonts\SegoeFluent\SegoeFluent.ttf" />
-    <None Remove="Resources\img\logo.png" />
-    <None Remove="Resources\img\logo_mini.png" />
+    <Resource Include="Resources\img\bg-login.jpg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -26,7 +24,7 @@
 
   <ItemGroup>
     <Folder Include="Model\" />
-    <Folder Include="NewFolder\" />
+    <Folder Include="View\" />
   </ItemGroup>
 
   <ItemGroup>

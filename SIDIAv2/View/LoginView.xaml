@@ -1,9 +1,9 @@
-﻿<Window x:Class="WPF_LoginForm.View.LoginView"
+﻿<Window x:Class="SIDIAv2.View.LoginView"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:WPF_LoginForm.View"
+        xmlns:local="clr-namespace:SIDIAv2.View"
         mc:Ignorable="d"
         Title="LoginView" Height="550" Width="800"
         WindowStyle="None"
@@ -15,7 +15,7 @@
 
     <Border CornerRadius="12">
         <Border.Background>
-            <ImageBrush ImageSource="/assets/img/bg-login.jpg"
+            <ImageBrush ImageSource="/Resources/img/bg-login.jpg"
                         Stretch="None"/>
         </Border.Background>
 
@@ -134,7 +134,7 @@
                             Orientation="Vertical"
                             Margin="0,35,0,0">
 
-                    <Image Source="/assets/img/Logo.png"
+                    <Image Source="/Resources/img/logo_mini.png"
                            Width="100" Height="100"/>
 
                     <TextBlock Text="SIDIA"
@@ -144,7 +144,7 @@
                                FontFamily="Montserrat"
                                HorizontalAlignment="Center"/>
 
-                    <TextBlock Text="Sistem Menejemen Persediaaan Data Barang"
+                    <TextBlock Text="Sistem Menejemen Pengelolaan Data Barang"
                                Foreground="LightGray"
                                FontSize="12"
                                FontWeight="Medium"
@@ -175,7 +175,7 @@
                              Padding="20,0,0,0">
 
                         <TextBox.Background>
-                            <ImageBrush ImageSource="/assets/img/user-icon.png"
+                            <ImageBrush ImageSource="/Resources/img/user-icon.png"
                                         Stretch="None"
                                         AlignmentX="Left"/>
                         </TextBox.Background>
@@ -202,7 +202,7 @@
                              Padding="20,0,0,0">
 
                         <PasswordBox.Background>
-                            <ImageBrush ImageSource="/assets/img/key-icon.png"
+                            <ImageBrush ImageSource="/Resources/img/key-icon.png"
                                         Stretch="None"
                                         AlignmentX="Left"/>
                         </PasswordBox.Background>
@@ -268,5 +268,4 @@
         </Border>
 
     </Border>
-
 </Window>

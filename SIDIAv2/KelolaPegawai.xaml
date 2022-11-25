@@ -19,19 +19,28 @@
         VirtualizationMode="Recycling">
         <TextBlock
             Foreground="{DynamicResource TextFillColorSecondaryBrush}"
-            Text="WPF UI adds a number of new, modern controls that can help you build stunning applications for Windows Presentation Foundation."
+            Text="Tabel Pegawai."
+            Margin="0, 4"
+            FontSize="16"
+            FontWeight="SemiBold"
+            TextWrapping="WrapWithOverflow" />
+        <TextBlock
+            Foreground="{DynamicResource TextFillColorSecondaryBrush}"
+            Text="Koleksi data pegawai, create, read, update, delete."
+            Margin="0, 4"
             TextWrapping="WrapWithOverflow" />
 
         <ui:DataGrid
             Margin="0,8,0,0"
             AutoGenerateColumns="False"
+            FontWeight="Light"
             ItemsSource="{Binding ViewModel.DataPegawai}">
             <ui:DataGrid.Columns>
                 <DataGridTextColumn Binding="{Binding Nama}" Header="Nama Pegawai" />
                 <DataGridTextColumn Binding="{Binding Username}" Header="Username" />
                 <DataGridTextColumn Binding="{Binding JenisKelamin}" Header="Jenis Kelamin" />
                 <DataGridTextColumn Binding="{Binding Alamat}" Header="Alamat" />
-                <DataGridTextColumn Binding="{Binding Umur}" Header="Umir" />
+                <DataGridTextColumn Binding="{Binding Umur}" Header="Umur" />
             </ui:DataGrid.Columns>
         </ui:DataGrid>
     </VirtualizingStackPanel>

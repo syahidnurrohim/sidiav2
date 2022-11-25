@@ -42,6 +42,7 @@ public partial class App
             services.AddScoped<DashboardViewModel>();
 
             services.AddScoped<KelolaAdmin>();
+            services.AddScoped<KelolaAdminViewModel>();
 
             services.AddScoped<KelolaBarang>();
             services.AddScoped<KelolaBarangViewModel>();

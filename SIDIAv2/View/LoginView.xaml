@@ -144,7 +144,7 @@
                                FontFamily="Montserrat"
                                HorizontalAlignment="Center"/>
 
-                    <TextBlock Text="Sistem Menejemen Pengelolaan Data Barang"
+                    <TextBlock Text="Sistem Informasi Persediaan Barang"
                                Foreground="LightGray"
                                FontSize="12"
                                FontWeight="Medium"
@@ -179,6 +179,7 @@
                                         Stretch="None"
                                         AlignmentX="Left"/>
                         </TextBox.Background>
+
                     </TextBox>
 
                     <TextBlock Text="Password"
@@ -202,7 +203,7 @@
                              Padding="20,0,0,0">
 
                         <PasswordBox.Background>
-                            <ImageBrush ImageSource="/Resources/img/key-icon.png"
+                            <ImageBrush ImageSource="/Images/key-icon.png"
                                         Stretch="None"
                                         AlignmentX="Left"/>
                         </PasswordBox.Background>

@@ -13,15 +13,23 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+using Wpf.Ui.Common.Interfaces;
+using SIDIAv2.ViewModel;
+
 namespace SIDIAv2
 {
     /// <summary>
     /// Interaction logic for KelolaPegawai.xaml
     /// </summary>
-    public partial class KelolaPegawai : Page
+    public partial class KelolaPegawai : INavigableView<KelolaPegawaiViewModel>
     {
-        public KelolaPegawai()
+        public KelolaPegawaiViewModel ViewModel
         {
+            get;
+        }
+        public KelolaPegawai(KelolaPegawaiViewModel viewModel)
+        {
+            ViewModel = viewModel;
             InitializeComponent();
         }
     }

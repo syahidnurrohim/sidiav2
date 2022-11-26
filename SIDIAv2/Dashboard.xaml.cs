@@ -12,17 +12,27 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Wpf.Ui.Common.Interfaces;
+
+using SIDIAv2.ViewModel;
 
 namespace SIDIAv2
 {
     /// <summary>
     /// Interaction logic for Dashboard.xaml
     /// </summary>
-    public partial class Dashboard : Page
+    public partial class Dashboard : INavigableView<DashboardViewModel>
     {
-        public Dashboard()
+        public DashboardViewModel ViewModel
+        {
+            get;
+        }
+
+        public Dashboard(DashboardViewModel viewModel)
         {
             InitializeComponent();
+            ViewModel = viewModel;
         }
+
     }
 }

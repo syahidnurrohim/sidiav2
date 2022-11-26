@@ -13,15 +13,23 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+using Wpf.Ui.Common.Interfaces;
+using SIDIAv2.ViewModel;
+
 namespace SIDIAv2
 {
     /// <summary>
     /// Interaction logic for KelolaAdmin.xaml
     /// </summary>
-    public partial class KelolaAdmin : Page
+    public partial class KelolaAdmin : INavigableView<KelolaAdminViewModel>
     {
-        public KelolaAdmin()
+        public KelolaAdminViewModel ViewModel
         {
+            get;
+        }
+        public KelolaAdmin(KelolaAdminViewModel viewModel)
+        {
+            ViewModel = viewModel;
             InitializeComponent();
         }
     }
